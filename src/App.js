@@ -12,9 +12,10 @@ Firebase support. Uncomment these imports if you want to connect the app
 with a realtime fire database
 */
 
-
+/*
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/database';
+*/
 import { firebaseConfig } from './config.js'
 
 
