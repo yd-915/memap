@@ -12,19 +12,19 @@ Firebase support. Uncomment these imports if you want to connect the app
 with a realtime fire database
 */
 
-/*
+
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/database';
 import { firebaseConfig } from './config.js'
-*/
+
 
 //Styling
 import './App.css'
 const startLat = 40.742997028
 const startLon = -73.96749613
-/*
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-*/
+
 
 const App = () => {
   const [mapCenter, setMapCenter] = useState([startLat, startLon]);
@@ -82,9 +82,9 @@ const App = () => {
     /*
     Uncomment this line if you need to use a firebase realtime database
     */
-    /*
+    
     firebaseApp.database().ref('/').push(body);
-    */
+  
 
     switch (iconStatus) {
       case 0:
